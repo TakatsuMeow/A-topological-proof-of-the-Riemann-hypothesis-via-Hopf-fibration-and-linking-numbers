@@ -1,0 +1,9 @@
+cp -rf /mnt/c/Users/GigaPC/Desktop/Projects/Riman_theory/riemann_ocean/* ~/projects/riemann_ocean/
+
+cp /mnt/c/Users/GigaPC/Desktop/Projects/Riman_theory/riemann_ocean/src/zeros_10946000.dat .
+
+cargo build --release
+
+./target/release/riemann_ocean
+
+cp -r plots/ /mnt/c/Users/GigaPC/Desktop/plots_from_wsl/
